@@ -3,5 +3,5 @@ module "lambda" {
   version = "0.0.3"
   create_lambda_function = true
   #schedule_expression = "cron(20 0 * * ? *)"
-  environment = "dev"
+  environment = "develop"
 }
